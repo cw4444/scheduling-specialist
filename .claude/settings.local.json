@@ -3,7 +3,9 @@
     "allow": [
       "Bash(python3 -c:*)",
       "Bash(node -e \"const fs = require\\(''fs''\\); fs.writeFileSync\\(''C:/Users/cw444/.claude/plans/starry-inventing-sparrow-agent-adf9b3800d07121bf.md'', ''# Scheduling Specialist Plan\\\\nSee conversation for full details.\\\\n''\\); console.log\\(''done''\\);\")",
-      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)"
+      "Bash(npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias \"@/*\" --yes)",
+      "Bash(npm install:*)",
+      "Bash(npx shadcn@latest init -y --defaults)"
     ]
   }
 }
